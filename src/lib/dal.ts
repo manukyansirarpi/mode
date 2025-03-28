@@ -3,7 +3,6 @@ import { getSession } from './auth'
 import { eq } from 'drizzle-orm'
 import { cache } from 'react'
 import { issues, users } from '@/db/schema'
-import { unstable_cacheTag as cacheTag } from 'next/cache'
 
 // Current user
 export const getCurrentUser = cache(async () => {
@@ -57,7 +56,6 @@ export async function getIssue(id: number) {
 }
 
 export async function getIssues() {
-  cacheTag('issues')
   try {
     const result = await db.query.issues.findMany({
       with: {
