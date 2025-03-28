@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mode - A Linear App Clone for Task Management
+
+Mode is a modern task management application inspired by [Linear](https://linear.app), designed to help teams track and manage their issues efficiently. This project is built with Next.js and provides a sleek, user-friendly interface for organizing and prioritizing tasks.
+
+## Features
+
+- **Task Management**: Create, update, and track issues with customizable status and priority levels
+- **Status Tracking**: Organize tasks by status (Backlog, Todo, In Progress, Done)
+- **Priority Levels**: Set priorities (Low, Medium, High) for your tasks
+- **User Authentication**: Secure authentication system for team members
+- **Modern UI**: Clean, responsive interface with dark mode support
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) - React framework for server-side rendering and static site generation
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [PostgreSQL](https://www.postgresql.org/) - Relational database
+- [Drizzle ORM](https://drizzle.dev/) - TypeScript ORM for SQL databases
 
 ## Getting Started
 
@@ -16,21 +34,40 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Make sure to set up your environment variables in a `.env` file:
+
+```
+DATABASE_URL=your_database_connection_string
+```
+
+## Database Setup
+
+Initialize the database and run migrations:
+
+```bash
+npm run db:push
+npm run db:seed
+```
+
+## Deployment
+
+The easiest way to deploy this app is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Drizzle ORM Documentation](https://orm.drizzle.team/docs/overview)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Screenshot
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot 2025-03-28 at 17 17 33](https://github.com/user-attachments/assets/546dab14-a4d6-47db-a95d-ecec835d39de)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
+ 
+
