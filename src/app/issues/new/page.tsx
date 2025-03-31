@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { Suspense } from 'react'
 import NewIssue from '@/components/NewIssue'
 
+// Mark this route as dynamic to allow cookies to be read
+export const dynamic = 'force-dynamic'
+
 export default async function NewIssuePage() {
   return (
     <div className="max-w-3xl mx-auto p-4 md:p-8">

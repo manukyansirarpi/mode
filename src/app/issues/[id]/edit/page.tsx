@@ -3,6 +3,10 @@ import IssueForm from '@/components/IssueForm'
 import { ArrowLeftIcon } from 'lucide-react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+
+// Mark this route as dynamic to allow cookies to be read
+export const dynamic = 'force-dynamic'
+
 export default async function EditIssuePage({
   params,
 }: {

@@ -8,6 +8,9 @@ import Button from '@/components/ui/Button'
 import { ArrowLeftIcon, Edit2Icon } from 'lucide-react'
 import DeleteIssueButton from '@/components/DeleteIssueButton'
 
+// Mark this route as dynamic to allow cookies to be read
+export const dynamic = 'force-dynamic'
+
 export default async function IssuePage({
   params,
 }: {
