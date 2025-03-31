@@ -66,3 +66,7 @@ To learn more about the technologies used in this project:
 ## Screenshot
 
 ![Screenshot 2025-03-28 at 17 17 33](https://github.com/user-attachments/assets/546dab14-a4d6-47db-a95d-ecec835d39de)
+
+![Screenshot 2025-03-31 at 11 34 51](https://github.com/user-attachments/assets/5343572d-5782-43f8-b377-ef46e703e3c1)
+
+![Screenshot 2025-03-31 at 11 35 02](https://github.com/user-attachments/assets/c183f70a-6a5f-4d4a-be26-d197d8a9ffd7)
