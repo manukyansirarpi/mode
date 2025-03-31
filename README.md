@@ -2,11 +2,6 @@
 
 Mode is a modern task management application inspired by [Linear](https://linear.app), designed to help teams track and manage their issues efficiently. This project is built with Next.js and provides a sleek, user-friendly interface for organizing and prioritizing tasks.
 
-## Screenshot
-
-![Mode App Screenshot](./public/screenshot.png)
-_Replace this with an actual screenshot of your application_
-
 ## Features
 
 - **Task Management**: Create, update, and track issues with customizable status and priority levels
@@ -67,3 +62,7 @@ To learn more about the technologies used in this project:
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Drizzle ORM Documentation](https://orm.drizzle.team/docs/overview)
+
+## Screenshot
+
+![Screenshot 2025-03-28 at 17 17 33](https://github.com/user-attachments/assets/546dab14-a4d6-47db-a95d-ecec835d39de)
