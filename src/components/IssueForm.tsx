@@ -30,7 +30,7 @@ const initialState: ActionResponse = {
 export default function IssueForm({
   issue,
   userId,
-  isEditing = false,
+  isEditing,
 }: IssueFormProps) {
   const router = useRouter()
 
@@ -63,6 +63,8 @@ export default function IssueForm({
         router.refresh()
         if (!isEditing) {
           router.push('/dashboard')
+        } else {
+          router.push(`/issues/${issue!.id}`)
         }
       }
 
